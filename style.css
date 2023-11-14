@@ -1,0 +1,1004 @@
+/* -------------------all style----------------------- */
+.body {
+    font-family: 'Lato', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'PT Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* -------------------header----------------------- */
+.header {
+    background-color: #000;
+    font-family: Lato;
+    width: 100%;
+    height: 90px;
+    padding: 36px;
+    display: flex;
+    justify-content:space-around;
+}
+
+.logo {
+    color: #FFF;
+    font-size: 14px;
+    font-weight: 400;
+    
+}
+
+.also-logo {
+    background-color: #4A90E2;
+    color: #FFF;
+    font-family: Lato;
+    font-style: normal;
+    text-transform: uppercase;
+    border: 5px  solid #4A90E2;
+    border-radius: 3px;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.header-nav {
+    color: #FFF;
+    font-size: 14px;
+    font-weight: 400;
+    display: flex;
+    gap: 30px;
+}
+
+.header-nav:hover{
+    color: #AFE7FF;
+}
+
+.header-nav:active{
+    color: #0A709B;
+}
+
+.header img {
+    width: 16px;
+    height: 17px;
+}
+
+
+/* ------------------ first container ---------------- */
+
+.first_container {
+    display: flex;
+    margin-top: 30px;
+    height: 560px;
+}
+.biggest_card {
+    width: 370px;
+    height: 560px;
+    flex-shrink: 0;
+    font-family: PT Sans;
+    margin-left: 200px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    padding: 30px 20px;
+    background: url(./img/first-carpng.png) lightgray 0px 0px / 100% 100% no-repeat;
+    border-radius: 5px;
+}
+
+.card_info {
+    color: #FFF;
+    font-family: PT Sans;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 36px; 
+}
+
+
+.description_card {
+    color: #FFF;
+    font-family: PT Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.description_button {
+    width: 62px;
+    height: 22px;
+    font-size: 12px;
+    border-radius: 3px;
+    background: #4A90E2;
+    color: #FFF;
+    flex-shrink: 0;
+}
+
+.description_button:hover {
+    background-color:  #064B9C;
+}
+
+.description_button:active{
+    background-color: #092C55;
+}
+
+.smallest_card{
+    display: flex;
+    margin-left: 20px;
+    /* padding-left: 20px; */
+    width: 787px;
+    height: 560px;
+    align-content: space-between;
+    flex-wrap: wrap;
+}
+
+.smallest_card .description_button {
+    color: #FFF;
+    font-family: PT Sans;
+    font-size: 12px;
+    font-weight: 400;
+    border-radius: 3px;
+    line-height: normal;
+}
+
+.yellow_cars__card {
+    background: url(./img/yellow-carpng.png) lightgray 0px 0px / 100% 100% no-repeat;
+    width: 370px;
+    height: 265px;
+    flex-shrink: 0;
+    flex-direction: column; 
+    display: flex;
+    justify-content: space-between;
+    margin-right: 20px;
+    padding: 23px 20px;
+    border-radius: 5px;
+}
+
+.smallest_card .card_info {
+    color: #FFF;
+    font-family: PT Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 30px; 
+}
+
+
+.white_cars__card {
+    background-image: url(./img/white_car.png);
+    background-position: center center;
+    background-size: cover;
+    width: 370px;
+    height: 265px;
+    flex-shrink: 0;
+    flex-direction: column; 
+    display: flex;
+    justify-content: space-between;
+    padding: 23px 20px;
+    border-radius: 5px;
+}
+
+.black_cars__card {
+    background-image: url(./img/black_car.png);
+    width: 370px;
+    height: 265px;
+    flex-shrink: 0;
+    flex-direction: column; 
+    display: flex;
+    justify-content: space-between;
+    padding: 23px 20px;
+    margin-right: 20px;
+    background-position: center center;
+    background-size: cover;
+    background-size: contain;
+    border-radius: 5px;
+}
+
+
+.old_cars__card{
+    background: url(./img/old_car.png) lightgray 0px 0px / 100% 100% no-repeat;
+    width: 370px;
+    height: 265px;
+    flex-shrink: 0;
+    flex-direction: column; 
+    display: flex;
+    justify-content: space-between;
+    padding: 23px 20px;
+    border-radius: 5px;
+}
+
+
+/* ------------------ second container ---------------- */
+
+.second_container {
+    padding-top: 60px;
+    float: left;
+}
+
+.first_car {
+    background: url(./img/black_mercedes.png) lightgray 0px 0px / 100% 100% no-repeat;
+    margin-left: 200px;
+    width: 760px;
+    height: 440px;
+    flex-shrink: 0;
+    border-radius: 5px;
+    flex-direction: column; 
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    z-index: 1;
+}
+
+.visit_card{
+    width: 690px;
+    height: 249px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0px 3px 10px 0px rgba(0, 0, 0, 0.10);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: absolute;
+    top: 310px;
+    z-index: 2;
+    margin: 30px;
+    padding: 30px;
+}
+
+.headling_card {
+    color: #171717;
+    font-family: PT Sans;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px;
+}
+
+.card_data {
+    color: #666;
+    font-family: PT Sans;
+    font-size: 14px;
+    font-style: italic;
+    font-weight: 400;
+}
+
+.insides_card {
+    width: 614px;
+    color: #666;
+    font-family: PT Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; 
+}
+
+.second_car {
+    background: url(./img/blue_bmw.png) lightgray 0px 0px / 100% 100% no-repeat;
+    margin-top: 210px;
+    margin-left: 200px;
+    width: 760px;
+    height: 440px;
+    flex-shrink: 0;
+    border-radius: 5px;
+    flex-direction: column; 
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    z-index: 1;
+}
+
+.third_car {
+    background: url(./img/mc_laren.png) lightgray 0px 0px / 100% 100% no-repeat;
+    margin-top: 210px;
+    margin-left: 200px;
+    width: 760px;
+    height: 440px;
+    flex-shrink: 0;
+    border-radius: 5px;
+    flex-direction: column; 
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    z-index: 1;
+}
+
+.fourth_car {
+    background: url(./img/chevrolet.png) lightgray 0px 0px / 100% 100% no-repeat;
+    margin-top: 210px;
+    margin-left: 200px;
+    width: 760px;
+    height: 440px;
+    flex-shrink: 0;
+    border-radius: 5px;
+    flex-direction: column; 
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    z-index: 1;
+}
+
+.fifth_car {
+    background: url(./img/jeeppng.png) lightgray 0px 0px / 100% 100% no-repeat;
+    margin-top: 210px;
+    margin-left: 200px;
+    width: 760px;
+    height: 440px;
+    flex-shrink: 0;
+    border-radius: 5px;
+    flex-direction: column; 
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    z-index: 1;
+}
+
+/* ------------------ aside first block ---------------- */
+
+
+.additional_inform {
+    float: right;
+    margin-right: 150px;
+    padding-top: 60px;
+}
+
+.first_part {
+    background-image: url(./img/human.png);
+    border-radius: 7px;
+    background-position: top center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 250px;
+    height: 420px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.info_about__add{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.name_human {
+    color: #171717;
+    font-family: PT Sans;
+    font-size: 18px;
+    font-weight: 700;
+    margin-top: 160px;
+}
+
+.sur_name {
+    color: #999;
+    font-family: PT Sans;
+    font-size: 14px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.discription_human {
+    color: #666;
+    font-family: PT Sans;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 25px; 
+}
+
+.first_part__button {
+    border-radius: 5px;
+    background: #232323;
+    color: #FFF;
+    font-family: PT Sans;
+    font-size: 14px;
+    font-weight: 700;
+    width: 100%;
+    height: 50px;
+}
+
+
+.first_part__button:hover{
+    background-color: #4B4B4B;
+}
+
+.first_part__button:active{
+    background-color: #B0B0B0;
+}
+
+.text {
+    margin-top: 70px;
+    color: #171717;
+    font-family: PT Sans;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+/* ------------------ aside second block ---------------- */
+
+
+.second_part {
+    background-image: url(./img/wheel.png);
+    border-radius: 7px;
+    background-position: top center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 250px;
+    height: 300px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.info_about__part {
+    display: flex;
+    flex-direction: column;
+    /* padding-top: 20px; */
+    justify-content: space-between;
+}
+
+.description_button__aside {
+    width: 62px;
+    height: 22px;
+    font-size: 12px;
+    border-radius: 3px;
+    background: #4A90E2;
+    color: #FFF;
+    margin: 8px;
+}
+
+.description_button__aside:hover {
+    background-color:  #064B9C;
+}
+
+.description_button__aside:active{
+    background-color: #092C55;
+}
+
+.heading_part {
+    color: #171717;
+    font-family: PT Sans;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 28px; 
+    width: 230px;
+    margin-top: 140px;
+}
+
+.data_part {
+    color: #666;
+    font-family: PT Sans;
+    font-size: 14px;
+    font-style: italic;
+    font-weight: 400;
+}
+
+.third_part {
+    background-image: url(./img/black_jeep.png);
+    border-radius: 7px;
+    background-position: top center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 250px;
+    height: 300px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.fourth_part {
+    background-image: url(./img/red_car.png);
+    border-radius: 7px;
+    background-position: top center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 250px;
+    height: 300px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* ------------------ aside collage block ---------------- */
+
+.instagram {
+    margin-top: 60px;
+    color: #171717;
+    font-family: PT Sans;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 20px; 
+}
+
+.collage_cars {
+    height: 380px;
+    width: 250px;
+}
+
+.cars_in__callage{
+    margin-top: 30px;
+    border-radius: 5px;
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: 120px 120px;
+} 
+
+.view_instagram {
+    margin-top: 100px;
+    background: url(./img/instagram.svg);
+    background-repeat: no-repeat;
+    background-position: 30% 50%;
+    color: #FFF;
+    border-radius: 7px;
+    padding-left: 30px;
+    width: 250px;
+    height: 50px;
+    background-color: #232323;
+    font-family: PT Sans;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.view_instagram:hover{
+    background-color: #4B4B4B;
+}
+
+.view_instagram:active{
+    background-color: #B0B0B0;
+}
+
+/* ------------------ aside tags ---------------- */
+
+.text_tags {
+    margin-top: 70px;
+    color: #171717;
+    font-family: PT Sans;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 21px; 
+}
+
+.tags_block {
+    margin-top: 20px;
+    width: 250px;
+    border-radius: 3px;
+    color: #171717;
+    font-family: PT Sans;
+    font-size: 12px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 9px;
+}
+
+.tag {
+    display: grid;
+    align-items: center;
+    background-color: #EBEBEB;
+    border-radius: 3px;
+    text-align: center;
+    width: 70px;
+    height: 30px;
+}
+
+
+
+
+/* ------------------ aside email ---------------- */
+
+.email_aside {
+    width: 270px;
+    height: 279px;
+}
+
+.email_title {
+    margin-top: 70px;
+    color: #171717;
+    font-family: PT Sans;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.email_definition {
+    margin-top: 10px;
+    width: 250px;
+    color: #666;
+    font-family: PT Sans;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px; 
+}
+
+.input_name {
+    margin-top: 20px;
+    width: 250px;
+    height: 50px;
+    color: #AEB3BB;
+    font-family: PT Sans;
+    font-size: 14px;
+    font-weight: 400;
+    border-radius: 3px;
+    border: 1px solid #E5E5E5;
+    background: #FFF;
+}
+
+.input_email {
+    margin-top: 5px;
+    color: #AEB3BB;
+    font-family: PT Sans;
+    font-size: 14px;
+    font-weight: 400;
+    width: 250px;
+    height: 50px;
+    border-radius: 3px;
+    border: 1px solid #E5E5E5;
+}
+
+.email_subscribe {
+    width: 250px;
+    height: 50px;
+    margin-top: 10px;
+    border-radius: 3px;
+    background: #232323;
+    color: #FFF;
+    font-family: PT Sans;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.email_subscribe:hover{
+    background-color: #4B4B4B;
+}
+
+.email_subscribe:active{
+    background-color: #B0B0B0;
+}
+
+
+/* ------------------ number block ---------------- */
+
+
+.number_page {
+    clear: both;
+    display: flex;
+    width: 360px;
+    height: 40px;
+    margin-left: 200px;
+    padding-top: 220px;
+    justify-content: space-between;
+}
+
+.block1 {
+    display: flex;
+    width: 40px;
+    height: 40px;
+    border-radius: 3px;
+    border: 1px solid #E5E5E5;
+    justify-content: center;
+}
+
+.block2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 3px;
+    background: #171717;
+    color: #FFF;
+    font-family: PT Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 16px; 
+}
+
+.block3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #171717;
+    font-family: PT Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 16px; 
+    width: 40px;
+    height: 40px;
+    border-radius: 3px;
+    border: 1px solid #E5E5E5;
+}
+
+.block4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 3px;
+    color: #171717;
+    font-family: PT Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 16px; 
+    border: 1px solid #E5E5E5;
+}
+
+.block5 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 3px;
+    color: #171717;
+    font-family: PT Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 16px; 
+    border: 1px solid #E5E5E5;
+}
+
+.block6 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 3px;
+    color: #171717;
+    font-family: PT Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 16px; 
+    border: 1px solid #E5E5E5;
+}
+
+.block7 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 3px;
+    color: #171717;
+    font-family: PT Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 16px; 
+    border: 1px solid #E5E5E5;
+}
+
+
+/* ------------------ bmw cards ---------------- */
+
+.most_popular {
+    color: #171717;
+    font-family: PT Sans;
+    font-size: 30px;
+    font-weight: 700;
+    margin-left: 200px;
+    margin-top: 90px;
+}
+
+.bmw_cards {
+    margin-top: 30px;
+    margin-left: 200px;
+    display: flex;
+    gap: 30px;
+}
+
+.bmw_card1 {
+    width: 270px;
+    height: 298px;
+    background-image: url(./img/bmw1.png);
+    border-radius: 3px;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.button_bmw {
+    width: 62px;
+    height: 22px;
+    border-radius: 3px;
+    background: #4A90E2;
+    margin: 15px;
+    color: #FFF;
+    font-family: PT Sans;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.bmw_title {
+    margin-top: 140px;
+}
+
+.bmw_description__card {
+    color: #171717;
+    font-family: PT Sans;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 28px; 
+}
+
+.bmw_data__card {
+    margin-top: 10px;
+    color: #666;
+    font-family: PT Sans;
+    font-size: 14px;
+    font-style: italic;
+    font-weight: 400;
+}
+
+
+.bmw_card2 {
+    width: 270px;
+    height: 175px;
+    background-image: url(./img/bmw2.png);
+    border-radius: 3px;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.bmw_card3 {
+    width: 270px;
+    height: 180px;
+    background-image: url(./img/bmw3.png);  
+    border-radius: 3px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.bmw_card4 {
+    width: 270px;
+    height: 184px;
+    background-image: url(./img/bmw4.png);
+    border-radius: 3px;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+
+/* ------------------first footer ---------------- */
+
+.first_footer {
+    width: 100%;
+    height: 500px;
+    background: #171717;
+    display: flex;
+}
+
+.footer_column1 {
+    display: flex;
+    flex-direction: column;
+    margin-left: 200px;
+    margin-top: 60px;
+}
+
+.footer_description {
+    margin-top: 30px;
+    width: 270px;
+    color: #CECECE;
+    font-family: PT Sans;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+}
+
+.keep_in {
+    margin-top: 80px;
+    color: #FFF;
+    font-family: PT Sans;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.footer_icons {
+    margin-top: 30px;
+    display: flex;
+    gap: 15px;
+}
+
+.footer_column2 {
+    display: flex;
+    flex-direction: column;
+    margin-left: 150px;
+    margin-top: 60px;
+}
+
+.reset_posts {
+    color: #FFF;
+    font-family: PT Sans;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.foot_card1 {
+    margin-top: 30px;
+    display: flex;
+}
+
+.foot_img1 {
+    width: 95px;
+    height: 95px;
+    border-radius: 3px;
+}
+
+.description_card__img {
+    margin-left: 10px;
+}
+
+.description_foot__card {
+    color: #FFF;
+    font-family: PT Sans;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 26px; 
+    width: 178px;
+    height: 49px;
+}
+
+.data_foot__card {
+    margin-top: 15px;
+    color: #CECECE;
+    font-family: PT Sans;
+    font-size: 14px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 14px; 
+}
+
+.footer_column3 {
+    margin-top: 60px;
+    margin-left: 150px;
+}
+
+.news_letter {
+    color: #FFF;
+    font-family: PT Sans;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.footer_input__group {
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+}
+
+.footer_input__name {
+    width: 270px;
+    height: 50px;
+    border-radius: 3px;
+    background: #373737;
+}
+
+.footer_input__email {
+    margin-top: 10px;
+    width: 270px;
+    height: 50px;
+    border-radius: 3px;
+    background: #373737;
+}
+
+.footer_email__subscribe {
+    margin-top: 30px;
+    width: 270px;
+    height: 50px;
+    border-radius: 3px;
+    background: #232323;
+    color: #FFF;
+    font-family: PT Sans;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+
+/* ------------------ second footer ---------------- */
+
+.second_footer {
+    width: 100%;
+    height: 94px;
+    background: #000;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.rights_foot {
+    color: #FFF;
+    font-family: PT Sans;
+    font-size: 14px;
+    font-weight: 400;
+}
